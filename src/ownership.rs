@@ -16,3 +16,17 @@ fn main() {
   fn get_length(str: String) -> usize {
     return str.len()
   } 
+
+
+  // code fixed 
+
+  fn main() {
+    let str = String::from("Vikas sharma");
+    let (str, len) = get_length(str);
+    println!("{} {}", str, len);
+}
+
+fn get_length(str: String) -> (String, usize) {
+    let len = str.len();
+    return (str, len);
+}
