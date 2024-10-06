@@ -3,10 +3,20 @@
 
 
 fn main() {
-    let x = 5;
+    let x = 9;
     println!("The value of x is: {x}");
-    x = 6;
-    println!("The value of x isa {x}");
+    x = 10;
+    println!("The value of x is {x}");
 
     // This code will not compile as we are mutating the value of x
+}
+
+
+fn main() {
+    let mut x = 10;
+    println!("The value of x is: {x}");
+    x = 20;
+    println!("The value of x is  {x}");
+
+    // this code will compile as according the rust. because we need to mannualy declare mut before variable.
 }
