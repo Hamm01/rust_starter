@@ -30,3 +30,32 @@ fn get_length(str: String) -> (String, usize) {
     let len = str.len();
     return (str, len);
 }
+
+
+/*
+fn main() {
+  let str = String::from("Himanish");
+  let ref1 = &str;
+  let ref2 = &str;
+                      // this code will work properly
+  println!("{} {}", ref1, ref2);
+}
+
+  fn main() {
+    let mut str = String::from("Himanish");
+    let ref1 = &mut str;
+    let ref2 = &str;
+          // the compilation error comes with immutable borrow occurs here , if one mutable refrence made then we cannot make another
+          // imutable refrence 
+    println!("{} {}", ref1, ref2);
+}
+
+fn main() {
+    let mut str = String::from("Himanish");
+    let ref1 = &mut str;
+    ref1.push_str("koc");
+    let ref2 = &str;
+     // this code will work propery because we are using ref1 afterwords in code
+    println!("{}", ref2);
+}
+*/
