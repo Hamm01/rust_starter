@@ -27,3 +27,32 @@ enum Color{
   }
   
   }
+
+
+/*
+
+ // Enums with the values we can pass and checking the 
+enum Shape{
+  Circle(f32),
+  Rectangle(f32,f32),
+  Square(f32),
+  }
+
+fn main(){
+
+    let rectangle_shape =  Shape::Rectangle(12.0,12.0);
+    print!("{}",findarea(rectangle_shape));
+
+}
+
+fn findarea(shape: Shape) -> f32 {
+   
+   match shape{
+    Shape::Rectangle(width,height)  =>  width*height,
+    Shape::Circle(radius)  =>  std::f32::consts::PI * radius * radius,
+    Shape::Square(side ) => side * side,
+  }
+  
+
+}
+*/
