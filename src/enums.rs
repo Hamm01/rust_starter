@@ -56,3 +56,34 @@ fn findarea(shape: Shape) -> f32 {
 
 }
 */
+
+
+/*
+// Implementing Enums 
+enum Shape{
+  Circle(f32),
+  Rectangle(f32,f32),
+  Square(f32),
+  }
+
+
+  impl Shape{
+       fn area(&self) -> f32{
+        match self{
+          Shape::Rectangle(width,height)  =>  width*height,
+          Shape::Circle(radius)  =>  std::f32::consts::PI * radius * radius,
+          Shape::Square(side ) => side * side,
+        }
+       }
+  }
+
+fn main(){
+
+    let rectangle_shape =  Shape::Rectangle(12.0,12.0);
+    print!("{}",rectangle_shape.area());  // this can directly called area function
+
+}
+
+
+
+*/
