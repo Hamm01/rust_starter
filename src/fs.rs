@@ -1,4 +1,4 @@
-// How to read files in rust
+// How to read file content  in rust
 
 use std::fs;
 
