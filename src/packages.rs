@@ -1,0 +1,12 @@
+/*
+ Adding packages in rust
+ cargo.toml file containes all the packages externaly we want to use
+  there are some trying worth packages locally
+
+  Chrono
+  dotenv
+  uuid
+  tui
+  thiserror
+  sqlx
+*/
