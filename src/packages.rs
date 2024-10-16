@@ -9,4 +9,8 @@
   tui
   thiserror
   sqlx
+
+  to install the package
+
+  cargo add chrono
 */
