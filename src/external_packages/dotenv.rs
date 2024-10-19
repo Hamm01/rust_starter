@@ -12,5 +12,9 @@ use std::env;
 fn main() {
     dotenv().ok();
     let var = env::var("JWT_SECRET").unwrap();
-    println!("{}", var);
+
+    match var {
+        Ok(str) => println!("{}", str),
+        Err(_e) => print!("Error while reading variable"),
+    }
 }
